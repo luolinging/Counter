@@ -1,0 +1,253 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="7"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/print"
+        android:layout_width="318dp"
+        android:layout_height="66dp"
+        android:textColor="#ff0000"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:layout_row="0"
+        android:textSize="20dp"
+        android:gravity="bottom|right"
+        android:background="#eee" />
+
+    <Button
+        android:id="@+id/MCBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="MC" />
+
+    <Button
+        android:id="@+id/MRBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="MR" />
+
+    <Button
+        android:id="@+id/MSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:text="MS" />
+
+    <Button
+        android:id="@+id/MAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:text="M+" />
+
+    <Button
+        android:id="@+id/MJBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="4"
+        android:layout_row="1"
+        android:text="M-" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="2"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/clear1"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="CE" />
+
+    <Button
+        android:id="@+id/clear2"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/chars"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:text="±" />
+
+    <Button
+        android:id="@+id/txtsqrt"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="4"
+        android:layout_row="2"
+        android:text="sqrt" />
+
+    <Button
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="3"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/txtdivide"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/txtpercent"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="4"
+        android:layout_row="3"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="4"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/txtx"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/charx"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="4"
+        android:layout_row="4"
+        android:text="1/x" />
+
+    <Button
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="5"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/txtmin"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/txteq"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="4"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="5"
+        android:layout_rowSpan="2"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/txt0"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="6"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/txtspl"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="2"
+        android:layout_row="6"
+        android:text="." />
+
+    <Button
+        android:id="@+id/txtadd"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:text="+" />
+
+</GridLayout>
